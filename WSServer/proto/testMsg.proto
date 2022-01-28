@@ -1,0 +1,37 @@
+syntax = "proto3";
+package main;
+
+option go_package = "./proto/wsserver;wsserver";
+
+// Command id
+enum Command{
+    Login = 0;      // Login
+    Ping = 1;       // ping
+    Pong = 2;      // pong    
+}
+
+// ping
+message CommandPing {
+    int32 Code = 1;
+}
+
+// pong
+message CommandPong {    
+    int32 Code = 1;
+}
+
+// login
+message LoginRequest {    
+    string UserName = 1;
+}
+
+// user
+message User {    
+    string UserName = 1;
+    repeated Order Orders = 2;
+}
+
+message Order {
+  int64 OrderId = 1;
+  string OrderName = 2;
+}

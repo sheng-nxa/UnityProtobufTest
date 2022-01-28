@@ -1,0 +1,75 @@
+# ---------------[ Unity generated ]------------------ #
+Temp/
+Obj/
+Library/
+builds/
+Logs
+.svn/
+[Bb]uild/
+UserSettings
+*.csproj
+*.sln
+
+# ----[ Visual Studio / MonoDevelop generated ]------- #
+
+# debug.log*
+*.mdb
+*.mdb.*
+*.dmp
+*.dmp.*
+ExportedObj/
+.vs/
+*.userprefs
+assembly-*.csproj
+assembly-*.unityproj
+assembly-*.booproj
+VRCSDK2/Test/RaceTrack.userprefs
+VRCSDK2/Test/RaceTrack.v12.suo
+VRCSDK2/VrcSdk/VrcSdk.v12.suo
+*.suo
+
+# -------------[ OS generated ]------------------------ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ----[ JetBrains Rider IDE generated ]------- #
+.idea/
+*.*.iml
+Assets/Plugins/Editor/JetBrains/
+Assets/Plugins/Editor/JetBrains.meta
+*.sln.DotSettings.user
+*.sln.DotSettings
+
+# ----[Odin Inspector]----- #
+Assets/Plugins/Sirenix/Assemblies/AOT/*
+Assets/Plugins/Sirenix/Demos/*
+!Assets/Plugins/Sirenix/Demos/*.unitypackage
+
+# ----[FairyGUI]----- #
+
+.objs/
+
+# ----[HotFix Project generated]----- #
+HotBuild/
+
+# ----[Other Repositories]----- #
+
+AddressableBuilds/
+
+# ----[ Others ]------- #
+
+.svn
+.vs
+FR2_Cache.asset
+
+# ----[项目中个人相关的文件]------- #
+
+UserDevelopSettings.asset
+UserDevelopSettings.asset.meta
+UserScriptableObject.asset
+UserScriptableObject.asset.meta
